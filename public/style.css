@@ -34,7 +34,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(2.jpg);
+    background: url(./content/2.jpg);
     background-size: cover;
 }
 
@@ -74,9 +74,17 @@ body{
     color: red;
     align-items: center;
     text-align: left;
-    margin-bottom: 10px;
+    justify-content: space-between;
+    margin-bottom: 10px;   
+    padding-right: 25px;
+}
+.content__taskWrapper button{
+    font-size: 14px;
+}
+
+.content__taskMain{
+    display: flex;
     font-size: 24px;
-    
 }
 .content__tasksContainer{
     max-height: 180px;
